@@ -33,24 +33,25 @@ Les éléments HTML avec les identifiants ecran_win, ecran_jeu, et ecran_over so
 # Fonction Rejouer
 Cette fonction réinitialise le jeu en réinitialisant toutes les variables globales et en réaffichant l'interface utilisateur. Voici les étapes détaillées :
 
-
-# Réinitialisation des Decks : 
+# Réinitialisation des Decks 
 Les tableaux deck et deckEnnemi sont réinitialisés avec les mêmes cartes.
 
-
-# Réinitialisation des Mains et des Cartes en Jeu : 
+# Réinitialisation des Mains et des Cartes en Jeu
 Les tableaux main, carteJeu, carteJeuEnnemi, cimetiere, copieCarteJeu, et copieCarteJeuEnnemi sont vidés.
 
+# Réinitialisation des Points de Vie et des Attaques 
+Les points de vie (PvHero et PvEnnemi) et les attaques restantes (attaqueRestanteVersHero et attaqueRestanteVersEnnemi) sont réinitialisés.
 
-# Réinitialisation des Points de Vie et des Attaques : Les points de vie (PvHero et PvEnnemi) et les attaques restantes (attaqueRestanteVersHero et attaqueRestanteVersEnnemi) sont réinitialisés.
-Réinitialisation de l'Interface Utilisateur : Les éléments HTML sont mis à jour pour afficher l'écran de jeu et masquer les écrans de victoire et de défaite.
-Mélange et Distribution des Cartes :
+# Réinitialisation de l'Interface Utilisateur 
+Les éléments HTML sont mis à jour pour afficher l'écran de jeu et masquer les écrans de victoire et de défaite.
+
+#Mélange et Distribution des Cartes 
 La fonction Shuffle est appelée pour mélanger les decks du joueur et de l'ennemi.
 La fonction Distribuer est appelée pour distribuer 5 cartes au joueur.
 La fonction DistribuerEnnemi est appelée pour distribuer 1 carte à l'ennemi.
-Mise à Jour de l'État du Jeu :
+
+
+#Mise à Jour de l'État du Jeu
 La fonction EnvoiCombatEnnemi est appelée pour gérer l'envoi des cartes de l'ennemi en combat.
 Les fonctions AfficherCarteCombat et AfficherCarteCombatEnnemi sont appelées pour afficher les cartes en combat pour le joueur et l'ennemi.
 La fonction afficherPvHero est appelée pour afficher les points de vie du héros.
-Conclusion
-Ce script initialise et réinitialise un jeu de cartes, gère les états des cartes et des points de vie, et met à jour l'interface utilisateur en conséquence. Les fonctions Shuffle, Distribuer, DistribuerEnnemi, EnvoiCombatEnnemi, AfficherCarteCombat, AfficherCarteCombatEnnemi, et afficherPvHero ne sont pas définies dans l'extrait fourni, mais elles jouent un rôle crucial dans la logique du jeu.
