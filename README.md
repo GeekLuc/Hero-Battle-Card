@@ -7,16 +7,27 @@ Bootstrap/CSS part done by another student
 
 # Variables Globales
 deck : Un tableau contenant des cartes. Chaque carte est représentée par un tableau avec un identifiant, deux valeurs numériques (des points de vie ET des points d'attaque), et un nom.
+
 main : Un tableau représentant la main du joueur.
+
 carteJeu : Un tableau représentant les cartes actuellement en jeu pour le joueur.
+
 deckEnnemi : Un tableau similaire à deck, mais pour l'ennemi.
+
 carteJeuEnnemi : Un tableau représentant les cartes actuellement en jeu pour l'ennemi.
+
 cimetiere : Un tableau pour stocker les cartes qui ont été utilisées ou éliminées.
+
 copieCarteJeu et copieCarteJeuEnnemi : Des copies des cartes en jeu pour le joueur et l'ennemi, respectivement.
+
 PvHero et PvEnnemi : Les points de vie du héros et de l'ennemi, initialisés à 20.
+
 attaqueRestanteVersHero et attaqueRestanteVersEnnemi : Variables pour suivre les attaques restantes vers le héros et l'ennemi.
+
 texteAAfficher : Une chaîne de caractères pour afficher des messages à l'écran.
+
 Initialisation de l'Interface Utilisateur
+
 Les éléments HTML avec les identifiants ecran_win, ecran_jeu, et ecran_over sont manipulés pour afficher ou masquer différentes sections de l'interface utilisateur.
 
 # Fonction Rejouer
