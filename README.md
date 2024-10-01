@@ -5,6 +5,8 @@ HTML/Javascript part made by me, Luca Rougefort
 
 Bootstrap/CSS part done by another student
 
+https://geekluc.itch.io/ukulele-hero-battle-card
+
 # Variables Globales
 deck : Un tableau contenant des cartes. Chaque carte est représentée par un tableau avec un identifiant, deux valeurs numériques (des points de vie ET des points d'attaque), et un nom.
 
