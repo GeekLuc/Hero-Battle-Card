@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>ukulele hero battle</title>
+				<meta charset="utf-8">
+				<meta name="viewport" content="width= device-width, initial-scale=1" >
+				<link rel="stylesheet" type="text/css" href="bootstrap.css">
+				<link rel="stylesheet" href="animationCarte.css" />
+		</head>
+			
+		<body>
+			<audio controls="true" autoplay="true" loop="true">
+				<source src="Moonremix.mp3"/>
+			</audio>
+
+
+				<h1><b>Ukulele Hero Battle Card</b></h1>
+				<div id="ecran_jeu">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-10 col-xs-offset-1">
+								<div class="col-xs-2 col-xs-6"><img src="images/Quake-II-icon.png"></div>
+								<div class="col-xs-2 col-xs-6"><img src="images/conseils.png" title="La meilleure carte l'emporte, alors réflechis bien ;D" ></div>
+								<div class="col-xs-4 " id="message"></div>
+								<div class="col-xs-2 col-xs-6" id="ennemi"><img src="images/raditz.png">ennemi pv:<span id="pv_ennemi"></span> </div>
+								<div class="col-xs-2 col-xs-6"><img src="images/Quake-II-icon.png"></div>
+							</div>
+						</div>
+					</div>
+
+				<div class="container">
+					<div class="col-md-2 col-xs-3 carte" id="hero">hero<img src="images/kakarott.png"> pv:<span id="pv_hero"></span></div>
+
+						<div class="col-md-7 col-xs-9 carte" id="zonecombat"><!-- <span onclick="MouvCombat()" > --> du-du-duuuuu-duuu-duel !!!!<!-- </span> --><img src="images/bouton_play.png" onclick="Combat()" style="width: 110px;">
+							<div class="container-flow">
+								<div class="col-xs-6" id="separation">carte joueur
+									<div class="card" id="carte_jeu"></div>
+								</div>
+								<div class="col-xs-6">carte adversaire
+									<div class="card" id="carte_jeu_ennemi"></div>
+								</div>
+							</div>
+						</div>
+					<div class="col-md-3 hidden-xs hidden-sm carte" id="deckgrand">Deck <img class="deckimg deck" src="images/dos.png" onclick="Distribuer(1)" ></div><!--dans la page en plein ecran les image du dueck etdu cimetiere sont trop grande a reduire en parle avec les autres pour voir -->
+				</div>
+
+				<div class="container">
+					<div class="col-md-9 col-xs-12 carte" id="zone_main">Votre main
+						<div id="hand">
+							<div>
+
+								<div id="main">	
+									<div class="card" id="carte_main_1"></div>
+									<div class="card" id="carte_main_2"></div>
+									<div class="card" id="carte_main_3"></div>
+									<div class="card" id="carte_main_4"></div>
+									<div class="card" id="carte_main_5"></div>
+								</div> 
+
+						</div>
+					</div>
+					
+					</div>
+						<div class="col-xs-6 hidden-md hidden-lg carte" id="deckpetit">Deck <img class="deckimg deck" src="images/dos.png" onclick="Distribuer(1)">
+						</div>
+
+
+					<div class="col-md-3 col-xs-6 carte " id="cimetiere" title="la où vont les chevaliers tombaient au combat ...">
+						cimetiere<img class="deckimg1 deck " src="images/cimetiere.png">
+					</div>
+				</div>
+
+			</div>
+				
+			
+				<div class="container">
+						<div class="row"><div id="ecran_over">
+							<div id="boutonRejouer1"><img src="images/insert-coins.jpg"></div>
+						</div>
+				</div>
+			</div>
+
+			
+				<div class="container">
+					<div class="row"><div id="ecran_win">
+							 <div id="boutonRejouer2"><input type="submit" value="Rejouer"></div>
+						</div>
+				</div>
+			</div>
+
+<script type="text/javascript" src="javascript7.js">
+	
+</script>
+
+		</body>
+</html>
