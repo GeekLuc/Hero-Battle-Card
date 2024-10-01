@@ -45,13 +45,13 @@ Les points de vie (PvHero et PvEnnemi) et les attaques restantes (attaqueRestant
 # Réinitialisation de l'Interface Utilisateur 
 Les éléments HTML sont mis à jour pour afficher l'écran de jeu et masquer les écrans de victoire et de défaite.
 
-#Mélange et Distribution des Cartes 
+# Mélange et Distribution des Cartes 
 La fonction Shuffle est appelée pour mélanger les decks du joueur et de l'ennemi.
 La fonction Distribuer est appelée pour distribuer 5 cartes au joueur.
 La fonction DistribuerEnnemi est appelée pour distribuer 1 carte à l'ennemi.
 
 
-#Mise à Jour de l'État du Jeu
+# Mise à Jour de l'État du Jeu
 La fonction EnvoiCombatEnnemi est appelée pour gérer l'envoi des cartes de l'ennemi en combat.
 Les fonctions AfficherCarteCombat et AfficherCarteCombatEnnemi sont appelées pour afficher les cartes en combat pour le joueur et l'ennemi.
 La fonction afficherPvHero est appelée pour afficher les points de vie du héros.
