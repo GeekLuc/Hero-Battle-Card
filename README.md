@@ -5,7 +5,7 @@ HTML/Javascript part made by me, Luca Rougefort
 
 Bootstrap/CSS part done by another student
 
-Global Variables
+##Global Variables
 deck: An array containing cards. Each card is represented by an array with an identifier, two numerical values (health points and attack points), and a name.
 main: An array representing the player's hand.
 carteJeu: An array representing the cards currently in play for the player.
@@ -19,7 +19,7 @@ texteAAfficher: A string to display messages on the screen.
 User Interface Initialization
 HTML elements with the IDs ecran_win, ecran_jeu, and ecran_over are manipulated to show or hide different sections of the user interface.
 
-Function Rejouer
+##Function Rejouer
 This function resets the game by reinitializing all global variables and updating the user interface. Here are the detailed steps:
 
 Deck Reset: The arrays deck and deckEnnemi are reset with the same cards.
@@ -38,7 +38,7 @@ The afficherPvHero function is called to display the hero's health points.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-Variables Globales
+##Variables Globales
 deck : Un tableau contenant des cartes. Chaque carte est représentée par un tableau avec un identifiant, deux valeurs numériques (des points de vie ET des points d'attaque), et un nom.
 main : Un tableau représentant la main du joueur.
 carteJeu : Un tableau représentant les cartes actuellement en jeu pour le joueur.
@@ -52,7 +52,7 @@ texteAAfficher : Une chaîne de caractères pour afficher des messages à l'écr
 Initialisation de l'Interface Utilisateur
 Les éléments HTML avec les identifiants ecran_win, ecran_jeu, et ecran_over sont manipulés pour afficher ou masquer différentes sections de l'interface utilisateur.
 
-Fonction Rejouer
+##Fonction Rejouer
 Cette fonction réinitialise le jeu en réinitialisant toutes les variables globales et en réaffichant l'interface utilisateur. Voici les étapes détaillées :
 
 Réinitialisation des Decks : Les tableaux deck et deckEnnemi sont réinitialisés avec les mêmes cartes.
