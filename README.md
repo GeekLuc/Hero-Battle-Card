@@ -5,33 +5,33 @@ HTML/Javascript part made by me, Luca Rougefort
 
 Bootstrap/CSS part done by another student
 
-## Variables Globales
-# deck : Un tableau contenant des cartes. Chaque carte est représentée par un tableau avec un identifiant, deux valeurs numériques (des points de vie ET des points d'attaque), et un nom.
-# main : Un tableau représentant la main du joueur.
-# carteJeu : Un tableau représentant les cartes actuellement en jeu pour le joueur.
-# deckEnnemi : Un tableau similaire à deck, mais pour l'ennemi.
-# carteJeuEnnemi : Un tableau représentant les cartes actuellement en jeu pour l'ennemi.
-# cimetiere : Un tableau pour stocker les cartes qui ont été utilisées ou éliminées.
-# copieCarteJeu et copieCarteJeuEnnemi : Des copies des cartes en jeu pour le joueur et l'ennemi, respectivement.
-# PvHero et PvEnnemi : Les points de vie du héros et de l'ennemi, initialisés à 20.
-# attaqueRestanteVersHero et attaqueRestanteVersEnnemi : Variables pour suivre les attaques restantes vers le héros et l'ennemi.
-# texteAAfficher : Une chaîne de caractères pour afficher des messages à l'écran.
-# Initialisation de l'Interface Utilisateur
-# Les éléments HTML avec les identifiants ecran_win, ecran_jeu, et ecran_over sont manipulés pour afficher ou masquer différentes sections de l'interface utilisateur.
+# Variables Globales
+deck : Un tableau contenant des cartes. Chaque carte est représentée par un tableau avec un identifiant, deux valeurs numériques (des points de vie ET des points d'attaque), et un nom.
+main : Un tableau représentant la main du joueur.
+carteJeu : Un tableau représentant les cartes actuellement en jeu pour le joueur.
+deckEnnemi : Un tableau similaire à deck, mais pour l'ennemi.
+carteJeuEnnemi : Un tableau représentant les cartes actuellement en jeu pour l'ennemi.
+cimetiere : Un tableau pour stocker les cartes qui ont été utilisées ou éliminées.
+copieCarteJeu et copieCarteJeuEnnemi : Des copies des cartes en jeu pour le joueur et l'ennemi, respectivement.
+PvHero et PvEnnemi : Les points de vie du héros et de l'ennemi, initialisés à 20.
+attaqueRestanteVersHero et attaqueRestanteVersEnnemi : Variables pour suivre les attaques restantes vers le héros et l'ennemi.
+texteAAfficher : Une chaîne de caractères pour afficher des messages à l'écran.
+Initialisation de l'Interface Utilisateur
+Les éléments HTML avec les identifiants ecran_win, ecran_jeu, et ecran_over sont manipulés pour afficher ou masquer différentes sections de l'interface utilisateur.
 
-## Fonction Rejouer
+# Fonction Rejouer
 Cette fonction réinitialise le jeu en réinitialisant toutes les variables globales et en réaffichant l'interface utilisateur. Voici les étapes détaillées :
 
 
-## Réinitialisation des Decks : 
+# Réinitialisation des Decks : 
 Les tableaux deck et deckEnnemi sont réinitialisés avec les mêmes cartes.
 
 
-## Réinitialisation des Mains et des Cartes en Jeu : 
+# Réinitialisation des Mains et des Cartes en Jeu : 
 Les tableaux main, carteJeu, carteJeuEnnemi, cimetiere, copieCarteJeu, et copieCarteJeuEnnemi sont vidés.
 
 
-## Réinitialisation des Points de Vie et des Attaques : Les points de vie (PvHero et PvEnnemi) et les attaques restantes (attaqueRestanteVersHero et attaqueRestanteVersEnnemi) sont réinitialisés.
+# Réinitialisation des Points de Vie et des Attaques : Les points de vie (PvHero et PvEnnemi) et les attaques restantes (attaqueRestanteVersHero et attaqueRestanteVersEnnemi) sont réinitialisés.
 Réinitialisation de l'Interface Utilisateur : Les éléments HTML sont mis à jour pour afficher l'écran de jeu et masquer les écrans de victoire et de défaite.
 Mélange et Distribution des Cartes :
 La fonction Shuffle est appelée pour mélanger les decks du joueur et de l'ennemi.
